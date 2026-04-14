@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeTech — Образовательная IT-платформа</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                <div class="logo-icon">{CT}</div>
+                <div class="logo-text">
+                    <span class="brand">CodeTech</span>
+                    <span class="author">BY YERKEZHAN</span>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#home">Главная</a>
+                <a href="#courses">Курсы</a>
+                <a href="#about">О нас</a>
+                <a href="#instructors">Менторы</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="btn-ghost">Войти</a>
+                <a href="#contact" class="btn-primary">Начать</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-wrapper">
+            <div class="hero-content">
+                <div class="status-badge"><span></span> Online Education</div>
+                <h1>Освой навыки <br><span class="gradient-text">будущего в IT</span></h1>
+                <p>Профессиональные курсы по Python, SQL, Java и дизайну. Обучение с нуля до оффера под руководством опытных менторов.</p>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Чему хочешь научиться?">
+                    <button class="btn-primary">Найти</button>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat"><span class="num">5k+</span><span class="lab">Студентов</span></div>
+                    <div class="stat"><span class="num">50+</span><span class="lab">Уроков</span></div>
+                    <div class="stat"><span class="num">98%</span><span class="lab">Успех</span></div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="mockup-code">
+                    <div class="mockup-header">
+                        <div class="m-dots"><i></i><i></i><i></i></div>
+                        <span class="m-title">main.py</span>
+                    </div>
+                    <div class="mockup-body">
+                        <pre><code><span class="keyword">import</span> tech<br><br><span class="comment"># Твой путь к успеху</span><br>user = tech.<span class="func">Student</span>(name=<span class="string">"You"</span>)<br>user.<span class="func">start_learning</span>(<span class="string">"Python"</span>)<br><span class="keyword">print</span>(user.status) <span class="comment"># "Success"</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="categories">
+        <div class="container">
+            <div class="section-heading">
+                <span class="subtitle">КАТЕГОРИИ</span>
+                <h2>Выберите свое <span class="gradient-text">направление</span></h2>
+            </div>
+            <section id="courses" class="categories">
+    <div class="container">
+        <div class="section-heading">
+            <span class="subtitle">НАШИ НАПРАВЛЕНИЯ</span>
+            <h2>Выбери свой <span class="gradient-text">путь в IT</span></h2>
+        </div>
+        <div class="category-grid">
+            <div class="cat-card">
+                <div class="cat-banner py-grad">
+                    <img src="/static/img/images.jpg" alt="Python">
+                </div>
+                <div class="cat-info">
+                    <div class="cat-icon">🐍</div>
+                    <h3>Python Pro</h3>
+                    <p>Backend-разработка, AI и автоматизация процессов.</p>
+                    <a href="#" class="cat-link">Подробнее →</a>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-banner sql-grad">
+                    <img src="https://img.freepik.com/free-vector/database-concept-illustration_114360-141.jpg" alt="SQL" style="mix-blend-mode: luminosity; opacity: 0.6;">
+                </div>
+                <div class="cat-info">
+                    <div class="cat-icon">💾</div>
+                    <h3>SQL Master</h3>
+                    <p>Работа с Big Data, архитектура баз данных и аналитика.</p>
+                    <a href="#" class="cat-link">Подробнее →</a>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-banner design-grad">
+                    <img src="/static/img/reactjs_logo_icon_170805.webp" alt="Frontend">
+                </div>
+                <div class="cat-info">
+                    <div class="cat-icon">⚛️</div>
+                    <h3>Frontend React</h3>
+                    <p>Создавай современные интерфейсы и SPA приложения.</p>
+                    <a href="#" class="cat-link">Подробнее →</a>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-banner java-grad">
+                    <img src="https://img.freepik.com/free-vector/app-development-concept-illustration_114360-5110.jpg" alt="Mobile">
+                </div>
+                <div class="cat-info">
+                    <div class="cat-icon">📱</div>
+                    <h3>Mobile Apps</h3>
+                    <p>Разработка под iOS и Android на Swift и Kotlin.</p>
+                    <a href="#" class="cat-link">Подробнее →</a>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-banner java-grad">
+                    <img src="/static/img/Unofficial_JavaScript_logo_2.svg.png" alt="Java" style="padding: 20px;">
+                </div>
+                <div class="cat-info">
+                    <div class="cat-icon">☕</div>
+                    <h3>Java Enterprise</h3>
+                    <p>Масштабируемые системы для крупного бизнеса.</p>
+                    <a href="#" class="cat-link">Подробнее →</a>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-banner design-grad">
+                    <img src="https://img.freepik.com/free-vector/creative-process-concept-illustration_114360-3135.jpg" alt="Design">
+                </div>
+                <div class="cat-info">
+                    <div class="cat-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Проектирование удобных интерфейсов в Figma.</p>
+                    <a href="#" class="cat-link">Подробнее →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+    <div class="container">
+        <div class="section-heading">
+            <span class="subtitle">ТАРИФЫ</span>
+            <h2>Выберите свой <span class="gradient-text">план обучения</span></h2>
+        </div>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Free</h3>
+                <div class="price">$0<span>/мес</span></div>
+                <ul>
+                    <li>✓ Доступ к вводным урокам</li>
+                    <li>✓ Комьюнити в Discord</li>
+                    <li>✕ Проверка ДЗ</li>
+                </ul>
+                <button class="btn-outline w-100">Попробовать</button>
+            </div>
+            <div class="price-card popular">
+                <div class="badge">POPULAR</div>
+                <h3>Pro Master</h3>
+                <div class="price">$49<span>/мес</span></div>
+                <ul>
+                    <li>✓ Все видео-курсы</li>
+                    <li>✓ Прямые эфиры с ментором</li>
+                    <li>✓ Сертификат об окончании</li>
+                </ul>
+                <button class="btn-primary w-100">Купить курс</button>
+            </div>
+            <div class="price-card">
+                <h3>VIP Elite</h3>
+                <div class="price">$199<span>/мес</span></div>
+                <ul>
+                    <li>✓ Личный коучинг</li>
+                    <li>✓ Помощь с трудоустройством</li>
+                    <li>✓ Доступ навсегда</li>
+                </ul>
+                <button class="btn-outline w-100">Выбрать VIP</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="testimonials" class="testimonials">
+    <div class="container">
+        <div class="section-heading">
+            <span class="subtitle">ОТЗЫВЫ</span>
+            <h2>Что говорят наши <span class="gradient-text">выпускники</span></h2>
+            <p class="section-description">Реальные истории успеха студентов, прошедших обучение.</p>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="student-card">
+                <div class="card-avatar">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Арман Сериков">
+                </div>
+                <div class="card-content">
+                    <h3>Арман Сериков</h3>
+                    <span class="course-tag py-tag">Python Developer</span>
+                    <p class="review-text">«Курс потрясающий! Ментор помог разобраться с Django, и я смог создать свое первое веб-приложение. Практики очень много, это именно то, что я искал.»</p>
+                    <a href="#" class="btn-ghost-sm">Смотреть проект →</a>
+                </div>
+            </div>
+
+            <div class="student-card">
+                <div class="card-avatar">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Айгерим Муратова">
+                </div>
+                <div class="card-content">
+                    <h3>Айгерим Муратова</h3>
+                    <span class="course-tag design-tag">UI/UX Design Master</span>
+                    <p class="review-text">«CodeTech дал мне отличную базу в Figma. Я научилась проводить исследования и строить пользовательские пути. Сейчас стажируюсь в крутом стартапе!»</p>
+                    <a href="#" class="btn-ghost-sm">Смотреть портфолио →</a>
+                </div>
+            </div>
+
+            <div class="student-card">
+                <div class="card-avatar">
+                    <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Игорь Панин">
+                </div>
+                <div class="card-content">
+                    <h3>Игорь Панин</h3>
+                    <span class="course-tag sql-tag">Data Analyst</span>
+                    <p class="review-text">«SQL для меня был темным лесом. На курсе всё разложили по полочкам: от простых запросов до сложных джойнов. Теперь аналитика дается легко.»</p>
+                    <a href="#" class="btn-ghost-sm">Смотреть кейс →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-card">
+            <div class="contact-header">
+                <h2>Остались <span class="gradient-text">вопросы?</span></h2>
+                <p>Оставь заявку, и мы свяжемся с тобой в ближайшее время.</p>
+            </div>
+            <form class="contact-form" action="/submit_form" method="POST">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Имя" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <textarea name="message" placeholder="Твой вопрос..." required></textarea>
+                <button type="submit" class="btn-primary btn-large">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <div class="logo-icon">{CT}</div>
+                <span>CodeTech</span>
+            </div>
+            <p>© 2026 CodeTech. Все права защищены. Сделано Yerkezhan.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
